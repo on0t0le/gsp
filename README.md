@@ -21,43 +21,44 @@ Add to `.zshrc`:
 plugins=(... gh-switch)
 
 Reload:
-
+```sh
 source ~/.zshrc
-
+```
 ---
 
 ## Setup Profiles
 
+```sh
 GH_CONFIG_DIR=~/.github/work gh auth login
-
 GH_CONFIG_DIR=~/.github/personal gh auth login
-
+```
 ---
 
 ## Usage
 
+```sh
 gsp work
 gsp personal
 
 gsp-list
 gsp-current
-
+```
 ---
 
 ## Autocomplete
 
 Type:
-
+```sh
 gsp <TAB>
-
+```
 Shows available profiles.
 
 ---
 
 ## Auto-switch per directory
-
+```sh
 echo "work" > .gh-profile
-
+```
 ---
 
 ## Notes
