@@ -29,6 +29,7 @@ source ~/.zshrc
 ## Setup Profiles
 
 GH_CONFIG_DIR=~/.github/work gh auth login
+
 GH_CONFIG_DIR=~/.github/personal gh auth login
 
 ---
